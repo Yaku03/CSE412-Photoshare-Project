@@ -1,0 +1,8 @@
+uid,fname,lname,email,password,gender,hometown,dob
+4,Rohan,Nair,rohann@example.com,12172003,M,Phoenix,12/17/2003
+5,Ritvik,Warrier,ritvik@example.com,7654321,M,Scottsdale,3/18/2003
+6,Akshay,Warrier,akshay@example.com,akshay123,M,Peoria,2/14/2001
+7,Aneesh,Warrier,aneesh@example.com,hello,M,Peoria,7/1/2005
+8,Varun,Chandra,varun@example.com,pass,M,Scottsdale,10/19/1999
+9,Nandu,Nair,nandu@example.com,word,M,Scottsdale,12/12/2003
+10,Arjun,Nair,arjun@example.com,abcdef,M,Phoenix,8/3/2003
