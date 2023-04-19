@@ -1,5 +1,4 @@
 import React from 'react';
-
 function Home() {
     return (
         <div>
@@ -7,15 +6,15 @@ function Home() {
             <h1>Welcome to PhotoShare</h1>
             <nav>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Explore</a></li>
+                <li><a href="/explore">Explore</a></li>
                 <li><a href="#">Notifications</a></li>
-                <li><a href="#">Profile</a></li>
+                <li><a href="/profile">Profile</a></li>
+                <li><a href="/leaderboard">Leaderboard</a></li>
               </ul>
             </nav>
           </header>
           <main>
-            <h2>Featured Photos</h2>
+            <h2>Featured Photos</h2>  
             <div className="featured-photos">
               {/* Display featured photos here */}
             </div>
