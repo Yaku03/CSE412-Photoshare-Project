@@ -5,6 +5,8 @@ import Home from './home'
 import Leaderboard from './Leaderboard'
 import Profile from './profile'
 import Explore from './explore'
+import Friends from './friends'
+
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
       <Route path = '/signup' element = {<Signup />}></Route>
       <Route path = '/home' element = {<Home/>}></Route>
       <Route path = '/leaderboard' element = {<Leaderboard/>}></Route>
+      <Route path = '/friends' element = {<Friends/>}></Route>
       <Route path = '/profile' element = {<Profile/>}></Route>
       <Route path = '/explore' element = {<Explore/>}></Route>
       </Routes>

@@ -36,7 +36,6 @@ function Login() {
 
         axios.post('http://localhost:3001/api/login', unpacked)
         .then(response => {
-            console.log(response.data);
             if(response.data === "Success") {
                 navigate('/home')
             }
